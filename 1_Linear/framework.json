@@ -1,0 +1,876 @@
+{
+    "uid": "fa29bf05-c236-4816-9f2e-118c85401508",
+    "name": "1_Linear",
+    "preprocessing": [
+        {
+            "categorical": [
+                {
+                    "convert_method": "categorical_to_int",
+                    "convert_params": {
+                        "model": {
+                            " Accent": 0,
+                            " Getz": 1,
+                            " I10": 2,
+                            " I20": 3,
+                            " I30": 4,
+                            " I40": 5,
+                            " I800": 6,
+                            " IX20": 7,
+                            " IX35": 8,
+                            " Ioniq": 9,
+                            " Kona": 10,
+                            " Santa Fe": 11,
+                            " Terracan": 12,
+                            " Tucson": 13,
+                            " Veloster": 14
+                        },
+                        "transmission": {
+                            "Automatic": 0,
+                            "Manual": 1,
+                            "Other": 2,
+                            "Semi-Auto": 3
+                        },
+                        "fuelType": {
+                            "Diesel": 0,
+                            "Hybrid": 1,
+                            "Other": 2,
+                            "Petrol": 3
+                        }
+                    },
+                    "columns": [
+                        "model",
+                        "transmission",
+                        "fuelType"
+                    ]
+                }
+            ],
+            "scale": [
+                {
+                    "scale": [
+                        4.438218088335662,
+                        1.9152773267994698,
+                        0.7776337041905497,
+                        17616.71260610284,
+                        1.3981034629383107,
+                        56.910545586232736,
+                        13.249606479138466,
+                        0.39294630014996024
+                    ],
+                    "mean": [
+                        7.240514469453376,
+                        2017.1372990353698,
+                        1.1035369774919614,
+                        21428.383279742764,
+                        1.8839228295819936,
+                        121.16559485530547,
+                        53.76469453376206,
+                        1.4578135048231509
+                    ],
+                    "var": [
+                        19.697779799629863,
+                        3.6682872385521232,
+                        0.6047141778931153,
+                        310348563.0460227,
+                        1.9546932930800962,
+                        3238.8101989226743,
+                        175.552071852028,
+                        0.15440679480154262
+                    ],
+                    "n_samples_seen": 3110,
+                    "n_features_in": 8,
+                    "columns": [
+                        "model",
+                        "year",
+                        "transmission",
+                        "mileage",
+                        "fuelType",
+                        "tax",
+                        "mpg",
+                        "engineSize"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "scale_y": {
+                "scale": [
+                    6058.686352824689
+                ],
+                "mean": [
+                    12791.472347266881
+                ],
+                "var": [
+                    36707680.32190413
+                ],
+                "n_samples_seen": 3110,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_normal"
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {
+                    "model": [
+                        "categorical_to_int",
+                        "scale_normal"
+                    ],
+                    "year": [
+                        "scale_normal"
+                    ],
+                    "transmission": [
+                        "categorical_to_int",
+                        "scale_normal"
+                    ],
+                    "mileage": [
+                        "scale_normal"
+                    ],
+                    "fuelType": [
+                        "categorical_to_int",
+                        "scale_normal"
+                    ],
+                    "tax": [
+                        "scale_normal"
+                    ],
+                    "mpg": [
+                        "scale_normal"
+                    ],
+                    "engineSize": [
+                        "scale_normal"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_normal"
+                ],
+                "ml_task": "regression"
+            }
+        },
+        {
+            "categorical": [
+                {
+                    "convert_method": "categorical_to_int",
+                    "convert_params": {
+                        "model": {
+                            " Accent": 0,
+                            " Getz": 1,
+                            " I10": 2,
+                            " I20": 3,
+                            " I30": 4,
+                            " I40": 5,
+                            " I800": 6,
+                            " IX20": 7,
+                            " IX35": 8,
+                            " Ioniq": 9,
+                            " Kona": 10,
+                            " Santa Fe": 11,
+                            " Terracan": 12,
+                            " Tucson": 13,
+                            " Veloster": 14
+                        },
+                        "transmission": {
+                            "Automatic": 0,
+                            "Manual": 1,
+                            "Other": 2,
+                            "Semi-Auto": 3
+                        },
+                        "fuelType": {
+                            "Diesel": 0,
+                            "Hybrid": 1,
+                            "Petrol": 2
+                        }
+                    },
+                    "columns": [
+                        "model",
+                        "transmission",
+                        "fuelType"
+                    ]
+                }
+            ],
+            "scale": [
+                {
+                    "scale": [
+                        4.4520972892851525,
+                        1.9664370891358562,
+                        0.7860722979950183,
+                        17776.60532423625,
+                        0.9223353707631025,
+                        57.97539659059298,
+                        13.276101177279822,
+                        0.40267126492934324
+                    ],
+                    "mean": [
+                        7.246623794212218,
+                        2017.1189710610931,
+                        1.1080385852090031,
+                        21372.182958199355,
+                        1.2733118971061093,
+                        122.17845659163987,
+                        53.70157556270096,
+                        1.4592604501607715
+                    ],
+                    "var": [
+                        19.821170273260204,
+                        3.866874825529099,
+                        0.6179096576751688,
+                        316007696.85366464,
+                        0.8507025361607097,
+                        3361.14660983654,
+                        176.25486246937066,
+                        0.16214414759979734
+                    ],
+                    "n_samples_seen": 3110,
+                    "n_features_in": 8,
+                    "columns": [
+                        "model",
+                        "year",
+                        "transmission",
+                        "mileage",
+                        "fuelType",
+                        "tax",
+                        "mpg",
+                        "engineSize"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "scale_y": {
+                "scale": [
+                    6115.006953469324
+                ],
+                "mean": [
+                    12850.525723472669
+                ],
+                "var": [
+                    37393310.04097818
+                ],
+                "n_samples_seen": 3110,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_normal"
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {
+                    "model": [
+                        "categorical_to_int",
+                        "scale_normal"
+                    ],
+                    "year": [
+                        "scale_normal"
+                    ],
+                    "transmission": [
+                        "categorical_to_int",
+                        "scale_normal"
+                    ],
+                    "mileage": [
+                        "scale_normal"
+                    ],
+                    "fuelType": [
+                        "categorical_to_int",
+                        "scale_normal"
+                    ],
+                    "tax": [
+                        "scale_normal"
+                    ],
+                    "mpg": [
+                        "scale_normal"
+                    ],
+                    "engineSize": [
+                        "scale_normal"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_normal"
+                ],
+                "ml_task": "regression"
+            }
+        },
+        {
+            "categorical": [
+                {
+                    "convert_method": "categorical_to_int",
+                    "convert_params": {
+                        "model": {
+                            " Accent": 0,
+                            " Getz": 1,
+                            " I10": 2,
+                            " I20": 3,
+                            " I30": 4,
+                            " I40": 5,
+                            " I800": 6,
+                            " IX20": 7,
+                            " IX35": 8,
+                            " Ioniq": 9,
+                            " Kona": 10,
+                            " Santa Fe": 11,
+                            " Terracan": 12,
+                            " Tucson": 13,
+                            " Veloster": 14
+                        },
+                        "transmission": {
+                            "Automatic": 0,
+                            "Manual": 1,
+                            "Other": 2,
+                            "Semi-Auto": 3
+                        },
+                        "fuelType": {
+                            "Diesel": 0,
+                            "Hybrid": 1,
+                            "Other": 2,
+                            "Petrol": 3
+                        }
+                    },
+                    "columns": [
+                        "model",
+                        "transmission",
+                        "fuelType"
+                    ]
+                }
+            ],
+            "scale": [
+                {
+                    "scale": [
+                        4.471902033436357,
+                        1.9457312986897555,
+                        0.7849098529245111,
+                        17543.614467942454,
+                        1.4053174491138958,
+                        58.02239168056016,
+                        12.254179304924383,
+                        0.39983942998765365
+                    ],
+                    "mean": [
+                        7.2745980707395494,
+                        2017.1215434083601,
+                        1.114790996784566,
+                        21512.785852090034,
+                        1.8610932475884245,
+                        121.05787781350482,
+                        53.715305466237936,
+                        1.4606752411575563
+                    ],
+                    "var": [
+                        19.997907796652225,
+                        3.7858702867009226,
+                        0.6160834772179776,
+                        307778408.5997998,
+                        1.974917132783987,
+                        3366.597936332337,
+                        150.16491043723704,
+                        0.1598715697728518
+                    ],
+                    "n_samples_seen": 3110,
+                    "n_features_in": 8,
+                    "columns": [
+                        "model",
+                        "year",
+                        "transmission",
+                        "mileage",
+                        "fuelType",
+                        "tax",
+                        "mpg",
+                        "engineSize"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "scale_y": {
+                "scale": [
+                    6075.690708478124
+                ],
+                "mean": [
+                    12812.972347266881
+                ],
+                "var": [
+                    36914017.58508741
+                ],
+                "n_samples_seen": 3110,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_normal"
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {
+                    "model": [
+                        "categorical_to_int",
+                        "scale_normal"
+                    ],
+                    "year": [
+                        "scale_normal"
+                    ],
+                    "transmission": [
+                        "categorical_to_int",
+                        "scale_normal"
+                    ],
+                    "mileage": [
+                        "scale_normal"
+                    ],
+                    "fuelType": [
+                        "categorical_to_int",
+                        "scale_normal"
+                    ],
+                    "tax": [
+                        "scale_normal"
+                    ],
+                    "mpg": [
+                        "scale_normal"
+                    ],
+                    "engineSize": [
+                        "scale_normal"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_normal"
+                ],
+                "ml_task": "regression"
+            }
+        },
+        {
+            "categorical": [
+                {
+                    "convert_method": "categorical_to_int",
+                    "convert_params": {
+                        "model": {
+                            " Accent": 0,
+                            " Getz": 1,
+                            " I10": 2,
+                            " I20": 3,
+                            " I30": 4,
+                            " I40": 5,
+                            " I800": 6,
+                            " IX20": 7,
+                            " IX35": 8,
+                            " Ioniq": 9,
+                            " Kona": 10,
+                            " Santa Fe": 11,
+                            " Terracan": 12,
+                            " Tucson": 13,
+                            " Veloster": 14
+                        },
+                        "transmission": {
+                            "Automatic": 0,
+                            "Manual": 1,
+                            "Other": 2,
+                            "Semi-Auto": 3
+                        },
+                        "fuelType": {
+                            "Diesel": 0,
+                            "Hybrid": 1,
+                            "Other": 2,
+                            "Petrol": 3
+                        }
+                    },
+                    "columns": [
+                        "model",
+                        "transmission",
+                        "fuelType"
+                    ]
+                }
+            ],
+            "scale": [
+                {
+                    "scale": [
+                        4.4326109437667185,
+                        1.9626622052270504,
+                        0.7840878945155754,
+                        17778.031631240872,
+                        1.4008805148985974,
+                        57.70424930217844,
+                        12.703439779113571,
+                        0.3969825055720883
+                    ],
+                    "mean": [
+                        7.192221150755384,
+                        2017.117968498875,
+                        1.112504018000643,
+                        21364.693024750883,
+                        1.8813886210221793,
+                        122.02667952426873,
+                        53.68752812600451,
+                        1.4561877209900354
+                    ],
+                    "var": [
+                        19.648039778800477,
+                        3.852042931826708,
+                        0.614793826325868,
+                        316058408.681401,
+                        1.9624662170225597,
+                        3329.7803875279606,
+                        161.37738222156509,
+                        0.15759510973029311
+                    ],
+                    "n_samples_seen": 3111,
+                    "n_features_in": 8,
+                    "columns": [
+                        "model",
+                        "year",
+                        "transmission",
+                        "mileage",
+                        "fuelType",
+                        "tax",
+                        "mpg",
+                        "engineSize"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "scale_y": {
+                "scale": [
+                    5917.374218085854
+                ],
+                "mean": [
+                    12732.961105753777
+                ],
+                "var": [
+                    35015317.63686718
+                ],
+                "n_samples_seen": 3111,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_normal"
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {
+                    "model": [
+                        "categorical_to_int",
+                        "scale_normal"
+                    ],
+                    "year": [
+                        "scale_normal"
+                    ],
+                    "transmission": [
+                        "categorical_to_int",
+                        "scale_normal"
+                    ],
+                    "mileage": [
+                        "scale_normal"
+                    ],
+                    "fuelType": [
+                        "categorical_to_int",
+                        "scale_normal"
+                    ],
+                    "tax": [
+                        "scale_normal"
+                    ],
+                    "mpg": [
+                        "scale_normal"
+                    ],
+                    "engineSize": [
+                        "scale_normal"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_normal"
+                ],
+                "ml_task": "regression"
+            }
+        },
+        {
+            "categorical": [
+                {
+                    "convert_method": "categorical_to_int",
+                    "convert_params": {
+                        "model": {
+                            " Getz": 0,
+                            " I10": 1,
+                            " I20": 2,
+                            " I30": 3,
+                            " I40": 4,
+                            " I800": 5,
+                            " IX20": 6,
+                            " IX35": 7,
+                            " Ioniq": 8,
+                            " Kona": 9,
+                            " Santa Fe": 10,
+                            " Terracan": 11,
+                            " Tucson": 12,
+                            " Veloster": 13
+                        },
+                        "transmission": {
+                            "Automatic": 0,
+                            "Manual": 1,
+                            "Other": 2,
+                            "Semi-Auto": 3
+                        },
+                        "fuelType": {
+                            "Diesel": 0,
+                            "Hybrid": 1,
+                            "Other": 2,
+                            "Petrol": 3
+                        }
+                    },
+                    "columns": [
+                        "model",
+                        "transmission",
+                        "fuelType"
+                    ]
+                }
+            ],
+            "scale": [
+                {
+                    "scale": [
+                        4.436415351209638,
+                        1.9067234282101413,
+                        0.7832686124819843,
+                        17383.60973000073,
+                        1.4055208751075257,
+                        57.68216918512532,
+                        13.315502128027747,
+                        0.4025841298831809
+                    ],
+                    "mean": [
+                        6.2806171648987466,
+                        2017.1407907425264,
+                        1.1051108968177434,
+                        21306.81292189007,
+                        1.8540662166505946,
+                        122.58598521375764,
+                        53.8101575056252,
+                        1.4627450980392158
+                    ],
+                    "var": [
+                        19.681781168448534,
+                        3.635594231685434,
+                        0.6135097192994529,
+                        302189887.24497604,
+                        1.9754889303630248,
+                        3327.2326419014207,
+                        177.30259692151148,
+                        0.16207398163379785
+                    ],
+                    "n_samples_seen": 3111,
+                    "n_features_in": 8,
+                    "columns": [
+                        "model",
+                        "year",
+                        "transmission",
+                        "mileage",
+                        "fuelType",
+                        "tax",
+                        "mpg",
+                        "engineSize"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "scale_y": {
+                "scale": [
+                    6064.2975378784495
+                ],
+                "mean": [
+                    12871.472838315654
+                ],
+                "var": [
+                    36775704.62791862
+                ],
+                "n_samples_seen": 3111,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_normal"
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {
+                    "model": [
+                        "categorical_to_int",
+                        "scale_normal"
+                    ],
+                    "year": [
+                        "scale_normal"
+                    ],
+                    "transmission": [
+                        "categorical_to_int",
+                        "scale_normal"
+                    ],
+                    "mileage": [
+                        "scale_normal"
+                    ],
+                    "fuelType": [
+                        "categorical_to_int",
+                        "scale_normal"
+                    ],
+                    "tax": [
+                        "scale_normal"
+                    ],
+                    "mpg": [
+                        "scale_normal"
+                    ],
+                    "engineSize": [
+                        "scale_normal"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_normal"
+                ],
+                "ml_task": "regression"
+            }
+        }
+    ],
+    "learners": [
+        {
+            "library_version": "1.0.1",
+            "algorithm_name": "Linear Regression",
+            "algorithm_short_name": "Linear",
+            "uid": "10430b4b-5554-4af4-b216-bc8afcbf619f",
+            "params": {
+                "model_type": "Linear",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "seed": 1235,
+                "explain_level": 1
+            },
+            "name": "learner_fold_0"
+        },
+        {
+            "library_version": "1.0.1",
+            "algorithm_name": "Linear Regression",
+            "algorithm_short_name": "Linear",
+            "uid": "1dbae152-8de6-43d9-b6af-cfd0bfb9242e",
+            "params": {
+                "model_type": "Linear",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "seed": 1235,
+                "explain_level": 1
+            },
+            "name": "learner_fold_1"
+        },
+        {
+            "library_version": "1.0.1",
+            "algorithm_name": "Linear Regression",
+            "algorithm_short_name": "Linear",
+            "uid": "cd1f5067-3739-4deb-8253-0e31b7b4eeb2",
+            "params": {
+                "model_type": "Linear",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "seed": 1235,
+                "explain_level": 1
+            },
+            "name": "learner_fold_2"
+        },
+        {
+            "library_version": "1.0.1",
+            "algorithm_name": "Linear Regression",
+            "algorithm_short_name": "Linear",
+            "uid": "50fab2c0-dd5b-43b9-a0ad-8970f70d000f",
+            "params": {
+                "model_type": "Linear",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "seed": 1235,
+                "explain_level": 1
+            },
+            "name": "learner_fold_3"
+        },
+        {
+            "library_version": "1.0.1",
+            "algorithm_name": "Linear Regression",
+            "algorithm_short_name": "Linear",
+            "uid": "02a85da9-f399-4da7-a80c-10314574c9de",
+            "params": {
+                "model_type": "Linear",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "seed": 1235,
+                "explain_level": 1
+            },
+            "name": "learner_fold_4"
+        }
+    ],
+    "params": {
+        "additional": {
+            "max_steps": 1,
+            "max_rows_limit": null,
+            "max_cols_limit": null
+        },
+        "preprocessing": {
+            "columns_preprocessing": {
+                "model": [
+                    "categorical_to_int",
+                    "scale_normal"
+                ],
+                "year": [
+                    "scale_normal"
+                ],
+                "transmission": [
+                    "categorical_to_int",
+                    "scale_normal"
+                ],
+                "mileage": [
+                    "scale_normal"
+                ],
+                "fuelType": [
+                    "categorical_to_int",
+                    "scale_normal"
+                ],
+                "tax": [
+                    "scale_normal"
+                ],
+                "mpg": [
+                    "scale_normal"
+                ],
+                "engineSize": [
+                    "scale_normal"
+                ]
+            },
+            "target_preprocessing": [
+                "na_exclude",
+                "scale_normal"
+            ],
+            "ml_task": "regression"
+        },
+        "validation_strategy": {
+            "validation_type": "kfold",
+            "k_folds": 5,
+            "shuffle": true,
+            "X_path": "AutoML_CAR_PRICE\\X.data",
+            "y_path": "AutoML_CAR_PRICE\\y.data",
+            "results_path": "AutoML_CAR_PRICE"
+        },
+        "learner": {
+            "model_type": "Linear",
+            "ml_task": "regression",
+            "n_jobs": -1,
+            "seed": 1235,
+            "explain_level": 1
+        },
+        "automl_random_state": 1234,
+        "ml_task": "regression",
+        "explain_level": 1,
+        "name": "1_Linear",
+        "status": "initialized",
+        "final_loss": null,
+        "train_time": null,
+        "data_type": "original",
+        "max_time_for_learner": 12000.0
+    },
+    "saved": [
+        "1_Linear\\learner_fold_0.linear",
+        "1_Linear\\learner_fold_1.linear",
+        "1_Linear\\learner_fold_2.linear",
+        "1_Linear\\learner_fold_3.linear",
+        "1_Linear\\learner_fold_4.linear"
+    ],
+    "predictions_fname": "1_Linear\\predictions_out_of_folds.csv",
+    "metric_name": "rmse",
+    "final_loss": 3175.1492617109293,
+    "train_time": 11.146713256835938,
+    "is_stacked": false,
+    "single_prediction_time": 0.09300065040588379
+}

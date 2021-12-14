@@ -1,0 +1,769 @@
+{
+    "uid": "1be14cf5-9052-49c2-87ee-51e15df63ffd",
+    "name": "8_Xgboost_categorical_mix",
+    "preprocessing": [
+        {
+            "categorical": [
+                {
+                    "convert_method": "categorical_to_onehot",
+                    "convert_params": {
+                        "model": {
+                            "new_columns": [
+                                "model_ Accent",
+                                "model_ Getz",
+                                "model_ I10",
+                                "model_ I20",
+                                "model_ I30",
+                                "model_ I40",
+                                "model_ I800",
+                                "model_ IX20",
+                                "model_ IX35",
+                                "model_ Ioniq",
+                                "model_ Kona",
+                                "model_ Santa Fe",
+                                "model_ Terracan",
+                                "model_ Tucson",
+                                "model_ Veloster"
+                            ],
+                            "unique_values": [
+                                " Accent",
+                                " Getz",
+                                " I10",
+                                " I20",
+                                " I30",
+                                " I40",
+                                " I800",
+                                " IX20",
+                                " IX35",
+                                " Ioniq",
+                                " Kona",
+                                " Santa Fe",
+                                " Terracan",
+                                " Tucson",
+                                " Veloster"
+                            ],
+                            "old_column": "model"
+                        },
+                        "transmission": {
+                            "new_columns": [
+                                "transmission_Automatic",
+                                "transmission_Manual",
+                                "transmission_Other",
+                                "transmission_Semi-Auto"
+                            ],
+                            "unique_values": [
+                                "Automatic",
+                                "Manual",
+                                "Other",
+                                "Semi-Auto"
+                            ],
+                            "old_column": "transmission"
+                        },
+                        "fuelType": {
+                            "new_columns": [
+                                "fuelType_Diesel",
+                                "fuelType_Hybrid",
+                                "fuelType_Other",
+                                "fuelType_Petrol"
+                            ],
+                            "unique_values": [
+                                "Diesel",
+                                "Hybrid",
+                                "Other",
+                                "Petrol"
+                            ],
+                            "old_column": "fuelType"
+                        }
+                    },
+                    "columns": [
+                        "model",
+                        "transmission",
+                        "fuelType"
+                    ]
+                }
+            ],
+            "scale_y": {
+                "scale": [
+                    6058.686352824689
+                ],
+                "mean": [
+                    12791.472347266881
+                ],
+                "var": [
+                    36707680.32190413
+                ],
+                "n_samples_seen": 3110,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_normal"
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {
+                    "model": [
+                        "categorical_to_onehot"
+                    ],
+                    "transmission": [
+                        "categorical_to_onehot"
+                    ],
+                    "fuelType": [
+                        "categorical_to_onehot"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_normal"
+                ],
+                "ml_task": "regression"
+            }
+        },
+        {
+            "categorical": [
+                {
+                    "convert_method": "categorical_to_onehot",
+                    "convert_params": {
+                        "model": {
+                            "new_columns": [
+                                "model_ Accent",
+                                "model_ Getz",
+                                "model_ I10",
+                                "model_ I20",
+                                "model_ I30",
+                                "model_ I40",
+                                "model_ I800",
+                                "model_ IX20",
+                                "model_ IX35",
+                                "model_ Ioniq",
+                                "model_ Kona",
+                                "model_ Santa Fe",
+                                "model_ Terracan",
+                                "model_ Tucson",
+                                "model_ Veloster"
+                            ],
+                            "unique_values": [
+                                " Accent",
+                                " Getz",
+                                " I10",
+                                " I20",
+                                " I30",
+                                " I40",
+                                " I800",
+                                " IX20",
+                                " IX35",
+                                " Ioniq",
+                                " Kona",
+                                " Santa Fe",
+                                " Terracan",
+                                " Tucson",
+                                " Veloster"
+                            ],
+                            "old_column": "model"
+                        },
+                        "transmission": {
+                            "new_columns": [
+                                "transmission_Automatic",
+                                "transmission_Manual",
+                                "transmission_Other",
+                                "transmission_Semi-Auto"
+                            ],
+                            "unique_values": [
+                                "Automatic",
+                                "Manual",
+                                "Other",
+                                "Semi-Auto"
+                            ],
+                            "old_column": "transmission"
+                        },
+                        "fuelType": {
+                            "new_columns": [
+                                "fuelType_Diesel",
+                                "fuelType_Hybrid",
+                                "fuelType_Petrol"
+                            ],
+                            "unique_values": [
+                                "Diesel",
+                                "Hybrid",
+                                "Petrol"
+                            ],
+                            "old_column": "fuelType"
+                        }
+                    },
+                    "columns": [
+                        "model",
+                        "transmission",
+                        "fuelType"
+                    ]
+                }
+            ],
+            "scale_y": {
+                "scale": [
+                    6115.006953469324
+                ],
+                "mean": [
+                    12850.525723472669
+                ],
+                "var": [
+                    37393310.04097818
+                ],
+                "n_samples_seen": 3110,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_normal"
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {
+                    "model": [
+                        "categorical_to_onehot"
+                    ],
+                    "transmission": [
+                        "categorical_to_onehot"
+                    ],
+                    "fuelType": [
+                        "categorical_to_onehot"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_normal"
+                ],
+                "ml_task": "regression"
+            }
+        },
+        {
+            "categorical": [
+                {
+                    "convert_method": "categorical_to_onehot",
+                    "convert_params": {
+                        "model": {
+                            "new_columns": [
+                                "model_ Accent",
+                                "model_ Getz",
+                                "model_ I10",
+                                "model_ I20",
+                                "model_ I30",
+                                "model_ I40",
+                                "model_ I800",
+                                "model_ IX20",
+                                "model_ IX35",
+                                "model_ Ioniq",
+                                "model_ Kona",
+                                "model_ Santa Fe",
+                                "model_ Terracan",
+                                "model_ Tucson",
+                                "model_ Veloster"
+                            ],
+                            "unique_values": [
+                                " Accent",
+                                " Getz",
+                                " I10",
+                                " I20",
+                                " I30",
+                                " I40",
+                                " I800",
+                                " IX20",
+                                " IX35",
+                                " Ioniq",
+                                " Kona",
+                                " Santa Fe",
+                                " Terracan",
+                                " Tucson",
+                                " Veloster"
+                            ],
+                            "old_column": "model"
+                        },
+                        "transmission": {
+                            "new_columns": [
+                                "transmission_Automatic",
+                                "transmission_Manual",
+                                "transmission_Other",
+                                "transmission_Semi-Auto"
+                            ],
+                            "unique_values": [
+                                "Automatic",
+                                "Manual",
+                                "Other",
+                                "Semi-Auto"
+                            ],
+                            "old_column": "transmission"
+                        },
+                        "fuelType": {
+                            "new_columns": [
+                                "fuelType_Diesel",
+                                "fuelType_Hybrid",
+                                "fuelType_Other",
+                                "fuelType_Petrol"
+                            ],
+                            "unique_values": [
+                                "Diesel",
+                                "Hybrid",
+                                "Other",
+                                "Petrol"
+                            ],
+                            "old_column": "fuelType"
+                        }
+                    },
+                    "columns": [
+                        "model",
+                        "transmission",
+                        "fuelType"
+                    ]
+                }
+            ],
+            "scale_y": {
+                "scale": [
+                    6075.690708478124
+                ],
+                "mean": [
+                    12812.972347266881
+                ],
+                "var": [
+                    36914017.58508741
+                ],
+                "n_samples_seen": 3110,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_normal"
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {
+                    "model": [
+                        "categorical_to_onehot"
+                    ],
+                    "transmission": [
+                        "categorical_to_onehot"
+                    ],
+                    "fuelType": [
+                        "categorical_to_onehot"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_normal"
+                ],
+                "ml_task": "regression"
+            }
+        },
+        {
+            "categorical": [
+                {
+                    "convert_method": "categorical_to_onehot",
+                    "convert_params": {
+                        "model": {
+                            "new_columns": [
+                                "model_ Accent",
+                                "model_ Getz",
+                                "model_ I10",
+                                "model_ I20",
+                                "model_ I30",
+                                "model_ I40",
+                                "model_ I800",
+                                "model_ IX20",
+                                "model_ IX35",
+                                "model_ Ioniq",
+                                "model_ Kona",
+                                "model_ Santa Fe",
+                                "model_ Terracan",
+                                "model_ Tucson",
+                                "model_ Veloster"
+                            ],
+                            "unique_values": [
+                                " Accent",
+                                " Getz",
+                                " I10",
+                                " I20",
+                                " I30",
+                                " I40",
+                                " I800",
+                                " IX20",
+                                " IX35",
+                                " Ioniq",
+                                " Kona",
+                                " Santa Fe",
+                                " Terracan",
+                                " Tucson",
+                                " Veloster"
+                            ],
+                            "old_column": "model"
+                        },
+                        "transmission": {
+                            "new_columns": [
+                                "transmission_Automatic",
+                                "transmission_Manual",
+                                "transmission_Other",
+                                "transmission_Semi-Auto"
+                            ],
+                            "unique_values": [
+                                "Automatic",
+                                "Manual",
+                                "Other",
+                                "Semi-Auto"
+                            ],
+                            "old_column": "transmission"
+                        },
+                        "fuelType": {
+                            "new_columns": [
+                                "fuelType_Diesel",
+                                "fuelType_Hybrid",
+                                "fuelType_Other",
+                                "fuelType_Petrol"
+                            ],
+                            "unique_values": [
+                                "Diesel",
+                                "Hybrid",
+                                "Other",
+                                "Petrol"
+                            ],
+                            "old_column": "fuelType"
+                        }
+                    },
+                    "columns": [
+                        "model",
+                        "transmission",
+                        "fuelType"
+                    ]
+                }
+            ],
+            "scale_y": {
+                "scale": [
+                    5917.374218085854
+                ],
+                "mean": [
+                    12732.961105753777
+                ],
+                "var": [
+                    35015317.63686718
+                ],
+                "n_samples_seen": 3111,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_normal"
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {
+                    "model": [
+                        "categorical_to_onehot"
+                    ],
+                    "transmission": [
+                        "categorical_to_onehot"
+                    ],
+                    "fuelType": [
+                        "categorical_to_onehot"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_normal"
+                ],
+                "ml_task": "regression"
+            }
+        },
+        {
+            "categorical": [
+                {
+                    "convert_method": "categorical_to_onehot",
+                    "convert_params": {
+                        "model": {
+                            "new_columns": [
+                                "model_ Getz",
+                                "model_ I10",
+                                "model_ I20",
+                                "model_ I30",
+                                "model_ I40",
+                                "model_ I800",
+                                "model_ IX20",
+                                "model_ IX35",
+                                "model_ Ioniq",
+                                "model_ Kona",
+                                "model_ Santa Fe",
+                                "model_ Terracan",
+                                "model_ Tucson",
+                                "model_ Veloster"
+                            ],
+                            "unique_values": [
+                                " Getz",
+                                " I10",
+                                " I20",
+                                " I30",
+                                " I40",
+                                " I800",
+                                " IX20",
+                                " IX35",
+                                " Ioniq",
+                                " Kona",
+                                " Santa Fe",
+                                " Terracan",
+                                " Tucson",
+                                " Veloster"
+                            ],
+                            "old_column": "model"
+                        },
+                        "transmission": {
+                            "new_columns": [
+                                "transmission_Automatic",
+                                "transmission_Manual",
+                                "transmission_Other",
+                                "transmission_Semi-Auto"
+                            ],
+                            "unique_values": [
+                                "Automatic",
+                                "Manual",
+                                "Other",
+                                "Semi-Auto"
+                            ],
+                            "old_column": "transmission"
+                        },
+                        "fuelType": {
+                            "new_columns": [
+                                "fuelType_Diesel",
+                                "fuelType_Hybrid",
+                                "fuelType_Other",
+                                "fuelType_Petrol"
+                            ],
+                            "unique_values": [
+                                "Diesel",
+                                "Hybrid",
+                                "Other",
+                                "Petrol"
+                            ],
+                            "old_column": "fuelType"
+                        }
+                    },
+                    "columns": [
+                        "model",
+                        "transmission",
+                        "fuelType"
+                    ]
+                }
+            ],
+            "scale_y": {
+                "scale": [
+                    6064.2975378784495
+                ],
+                "mean": [
+                    12871.472838315654
+                ],
+                "var": [
+                    36775704.62791862
+                ],
+                "n_samples_seen": 3111,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_normal"
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {
+                    "model": [
+                        "categorical_to_onehot"
+                    ],
+                    "transmission": [
+                        "categorical_to_onehot"
+                    ],
+                    "fuelType": [
+                        "categorical_to_onehot"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_normal"
+                ],
+                "ml_task": "regression"
+            }
+        }
+    ],
+    "learners": [
+        {
+            "library_version": "1.5.1",
+            "algorithm_name": "Extreme Gradient Boosting",
+            "algorithm_short_name": "Xgboost",
+            "uid": "0b2d9f93-baae-445a-9536-39de854b47b1",
+            "params": {
+                "model_type": "Xgboost",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "seed": 1236,
+                "objective": "reg:squarederror",
+                "eta": 0.1,
+                "max_depth": 8,
+                "min_child_weight": 1,
+                "subsample": 1.0,
+                "colsample_bytree": 1.0,
+                "eval_metric": "rmse",
+                "explain_level": 1
+            },
+            "name": "learner_fold_0",
+            "best_ntree_limit": 54
+        },
+        {
+            "library_version": "1.5.1",
+            "algorithm_name": "Extreme Gradient Boosting",
+            "algorithm_short_name": "Xgboost",
+            "uid": "4e0743e1-4b9b-4e9c-806f-42cd5c3ef7f6",
+            "params": {
+                "model_type": "Xgboost",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "seed": 1236,
+                "objective": "reg:squarederror",
+                "eta": 0.1,
+                "max_depth": 8,
+                "min_child_weight": 1,
+                "subsample": 1.0,
+                "colsample_bytree": 1.0,
+                "eval_metric": "rmse",
+                "explain_level": 1
+            },
+            "name": "learner_fold_1",
+            "best_ntree_limit": 46
+        },
+        {
+            "library_version": "1.5.1",
+            "algorithm_name": "Extreme Gradient Boosting",
+            "algorithm_short_name": "Xgboost",
+            "uid": "4cef20e1-e8c0-4462-acfb-dd6758f362a0",
+            "params": {
+                "model_type": "Xgboost",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "seed": 1236,
+                "objective": "reg:squarederror",
+                "eta": 0.1,
+                "max_depth": 8,
+                "min_child_weight": 1,
+                "subsample": 1.0,
+                "colsample_bytree": 1.0,
+                "eval_metric": "rmse",
+                "explain_level": 1
+            },
+            "name": "learner_fold_2",
+            "best_ntree_limit": 43
+        },
+        {
+            "library_version": "1.5.1",
+            "algorithm_name": "Extreme Gradient Boosting",
+            "algorithm_short_name": "Xgboost",
+            "uid": "31bb3f6b-1630-45c5-b6b7-d2d5fae07667",
+            "params": {
+                "model_type": "Xgboost",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "seed": 1236,
+                "objective": "reg:squarederror",
+                "eta": 0.1,
+                "max_depth": 8,
+                "min_child_weight": 1,
+                "subsample": 1.0,
+                "colsample_bytree": 1.0,
+                "eval_metric": "rmse",
+                "explain_level": 1
+            },
+            "name": "learner_fold_3",
+            "best_ntree_limit": 54
+        },
+        {
+            "library_version": "1.5.1",
+            "algorithm_name": "Extreme Gradient Boosting",
+            "algorithm_short_name": "Xgboost",
+            "uid": "3c3ea096-a88b-4882-a9e2-8ea5310935c4",
+            "params": {
+                "model_type": "Xgboost",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "seed": 1236,
+                "objective": "reg:squarederror",
+                "eta": 0.1,
+                "max_depth": 8,
+                "min_child_weight": 1,
+                "subsample": 1.0,
+                "colsample_bytree": 1.0,
+                "eval_metric": "rmse",
+                "explain_level": 1
+            },
+            "name": "learner_fold_4",
+            "best_ntree_limit": 33
+        }
+    ],
+    "params": {
+        "additional": {
+            "max_rounds": 10000,
+            "early_stopping_rounds": 50,
+            "max_rows_limit": null,
+            "max_cols_limit": null
+        },
+        "preprocessing": {
+            "columns_preprocessing": {
+                "model": [
+                    "categorical_to_onehot"
+                ],
+                "transmission": [
+                    "categorical_to_onehot"
+                ],
+                "fuelType": [
+                    "categorical_to_onehot"
+                ]
+            },
+            "target_preprocessing": [
+                "na_exclude",
+                "scale_normal"
+            ],
+            "ml_task": "regression"
+        },
+        "validation_strategy": {
+            "validation_type": "kfold",
+            "k_folds": 5,
+            "shuffle": true,
+            "X_path": "AutoML_CAR_PRICE\\X.data",
+            "y_path": "AutoML_CAR_PRICE\\y.data",
+            "results_path": "AutoML_CAR_PRICE"
+        },
+        "learner": {
+            "model_type": "Xgboost",
+            "ml_task": "regression",
+            "n_jobs": -1,
+            "seed": 1236,
+            "objective": "reg:squarederror",
+            "eta": 0.1,
+            "max_depth": 8,
+            "min_child_weight": 1,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "eval_metric": "rmse",
+            "explain_level": 1
+        },
+        "automl_random_state": 1234,
+        "ml_task": "regression",
+        "explain_level": 1,
+        "name": "8_Xgboost_categorical_mix",
+        "status": "initialized",
+        "final_loss": null,
+        "train_time": null,
+        "data_type": "original_categorical_mix",
+        "max_time_for_learner": 12000.0
+    },
+    "saved": [
+        "8_Xgboost_categorical_mix\\learner_fold_0.xgboost",
+        "8_Xgboost_categorical_mix\\learner_fold_1.xgboost",
+        "8_Xgboost_categorical_mix\\learner_fold_2.xgboost",
+        "8_Xgboost_categorical_mix\\learner_fold_3.xgboost",
+        "8_Xgboost_categorical_mix\\learner_fold_4.xgboost"
+    ],
+    "predictions_fname": "8_Xgboost_categorical_mix\\predictions_out_of_folds.csv",
+    "metric_name": "rmse",
+    "final_loss": 1925.0132249446167,
+    "train_time": 19.025977849960327,
+    "is_stacked": false,
+    "single_prediction_time": 0.15964484214782715
+}
