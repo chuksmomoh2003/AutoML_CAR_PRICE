@@ -1,0 +1,721 @@
+{
+    "uid": "9e34c5af-9d9e-4eb5-8cf5-4ebc94db54db",
+    "name": "15_CatBoost_GoldenFeatures",
+    "preprocessing": [
+        {
+            "golden_features": {
+                "new_features": [
+                    {
+                        "feature1": "engineSize",
+                        "feature2": "year",
+                        "operation": "ratio",
+                        "score": 0.4107815158
+                    },
+                    {
+                        "feature1": "engineSize",
+                        "feature2": "year",
+                        "operation": "multiply",
+                        "score": 0.4391056118
+                    },
+                    {
+                        "feature1": "engineSize",
+                        "feature2": "year",
+                        "operation": "sum",
+                        "score": 0.4604293071
+                    },
+                    {
+                        "feature1": "engineSize",
+                        "feature2": "tax",
+                        "operation": "multiply",
+                        "score": 0.4894111985
+                    },
+                    {
+                        "feature1": "year",
+                        "feature2": "engineSize",
+                        "operation": "ratio",
+                        "score": 0.5249638546
+                    },
+                    {
+                        "feature1": "mpg",
+                        "feature2": "engineSize",
+                        "operation": "diff",
+                        "score": 0.5463350623
+                    },
+                    {
+                        "feature1": "engineSize",
+                        "feature2": "tax",
+                        "operation": "ratio",
+                        "score": 0.5471543598
+                    },
+                    {
+                        "feature1": "tax",
+                        "feature2": "engineSize",
+                        "operation": "ratio",
+                        "score": 0.5485017906
+                    },
+                    {
+                        "feature1": "engineSize",
+                        "feature2": "mpg",
+                        "operation": "sum",
+                        "score": 0.5570557972
+                    },
+                    {
+                        "feature1": "engineSize",
+                        "feature2": "mpg",
+                        "operation": "multiply",
+                        "score": 0.564374741
+                    }
+                ],
+                "new_columns": [
+                    "engineSize_ratio_year",
+                    "engineSize_multiply_year",
+                    "engineSize_sum_year",
+                    "engineSize_multiply_tax",
+                    "year_ratio_engineSize",
+                    "mpg_diff_engineSize",
+                    "engineSize_ratio_tax",
+                    "tax_ratio_engineSize",
+                    "engineSize_sum_mpg",
+                    "engineSize_multiply_mpg"
+                ],
+                "ml_task": "regression"
+            },
+            "scale_y": {
+                "scale": [
+                    6058.686352824689
+                ],
+                "mean": [
+                    12791.472347266881
+                ],
+                "var": [
+                    36707680.32190413
+                ],
+                "n_samples_seen": 3110,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_normal"
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_normal"
+                ],
+                "ml_task": "regression",
+                "golden_features": {
+                    "results_path": "AutoML_CAR_PRICE",
+                    "ml_task": "regression",
+                    "n_jobs": -1
+                }
+            }
+        },
+        {
+            "golden_features": {
+                "new_features": [
+                    {
+                        "feature1": "engineSize",
+                        "feature2": "year",
+                        "operation": "ratio",
+                        "score": 0.4107815158
+                    },
+                    {
+                        "feature1": "engineSize",
+                        "feature2": "year",
+                        "operation": "multiply",
+                        "score": 0.4391056118
+                    },
+                    {
+                        "feature1": "engineSize",
+                        "feature2": "year",
+                        "operation": "sum",
+                        "score": 0.4604293071
+                    },
+                    {
+                        "feature1": "engineSize",
+                        "feature2": "tax",
+                        "operation": "multiply",
+                        "score": 0.4894111985
+                    },
+                    {
+                        "feature1": "year",
+                        "feature2": "engineSize",
+                        "operation": "ratio",
+                        "score": 0.5249638546
+                    },
+                    {
+                        "feature1": "mpg",
+                        "feature2": "engineSize",
+                        "operation": "diff",
+                        "score": 0.5463350623
+                    },
+                    {
+                        "feature1": "engineSize",
+                        "feature2": "tax",
+                        "operation": "ratio",
+                        "score": 0.5471543598
+                    },
+                    {
+                        "feature1": "tax",
+                        "feature2": "engineSize",
+                        "operation": "ratio",
+                        "score": 0.5485017906
+                    },
+                    {
+                        "feature1": "engineSize",
+                        "feature2": "mpg",
+                        "operation": "sum",
+                        "score": 0.5570557972
+                    },
+                    {
+                        "feature1": "engineSize",
+                        "feature2": "mpg",
+                        "operation": "multiply",
+                        "score": 0.564374741
+                    }
+                ],
+                "new_columns": [
+                    "engineSize_ratio_year",
+                    "engineSize_multiply_year",
+                    "engineSize_sum_year",
+                    "engineSize_multiply_tax",
+                    "year_ratio_engineSize",
+                    "mpg_diff_engineSize",
+                    "engineSize_ratio_tax",
+                    "tax_ratio_engineSize",
+                    "engineSize_sum_mpg",
+                    "engineSize_multiply_mpg"
+                ],
+                "ml_task": "regression"
+            },
+            "scale_y": {
+                "scale": [
+                    6115.006953469324
+                ],
+                "mean": [
+                    12850.525723472669
+                ],
+                "var": [
+                    37393310.04097818
+                ],
+                "n_samples_seen": 3110,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_normal"
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_normal"
+                ],
+                "ml_task": "regression",
+                "golden_features": {
+                    "results_path": "AutoML_CAR_PRICE",
+                    "ml_task": "regression",
+                    "n_jobs": -1
+                }
+            }
+        },
+        {
+            "golden_features": {
+                "new_features": [
+                    {
+                        "feature1": "engineSize",
+                        "feature2": "year",
+                        "operation": "ratio",
+                        "score": 0.4107815158
+                    },
+                    {
+                        "feature1": "engineSize",
+                        "feature2": "year",
+                        "operation": "multiply",
+                        "score": 0.4391056118
+                    },
+                    {
+                        "feature1": "engineSize",
+                        "feature2": "year",
+                        "operation": "sum",
+                        "score": 0.4604293071
+                    },
+                    {
+                        "feature1": "engineSize",
+                        "feature2": "tax",
+                        "operation": "multiply",
+                        "score": 0.4894111985
+                    },
+                    {
+                        "feature1": "year",
+                        "feature2": "engineSize",
+                        "operation": "ratio",
+                        "score": 0.5249638546
+                    },
+                    {
+                        "feature1": "mpg",
+                        "feature2": "engineSize",
+                        "operation": "diff",
+                        "score": 0.5463350623
+                    },
+                    {
+                        "feature1": "engineSize",
+                        "feature2": "tax",
+                        "operation": "ratio",
+                        "score": 0.5471543598
+                    },
+                    {
+                        "feature1": "tax",
+                        "feature2": "engineSize",
+                        "operation": "ratio",
+                        "score": 0.5485017906
+                    },
+                    {
+                        "feature1": "engineSize",
+                        "feature2": "mpg",
+                        "operation": "sum",
+                        "score": 0.5570557972
+                    },
+                    {
+                        "feature1": "engineSize",
+                        "feature2": "mpg",
+                        "operation": "multiply",
+                        "score": 0.564374741
+                    }
+                ],
+                "new_columns": [
+                    "engineSize_ratio_year",
+                    "engineSize_multiply_year",
+                    "engineSize_sum_year",
+                    "engineSize_multiply_tax",
+                    "year_ratio_engineSize",
+                    "mpg_diff_engineSize",
+                    "engineSize_ratio_tax",
+                    "tax_ratio_engineSize",
+                    "engineSize_sum_mpg",
+                    "engineSize_multiply_mpg"
+                ],
+                "ml_task": "regression"
+            },
+            "scale_y": {
+                "scale": [
+                    6075.690708478124
+                ],
+                "mean": [
+                    12812.972347266881
+                ],
+                "var": [
+                    36914017.58508741
+                ],
+                "n_samples_seen": 3110,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_normal"
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_normal"
+                ],
+                "ml_task": "regression",
+                "golden_features": {
+                    "results_path": "AutoML_CAR_PRICE",
+                    "ml_task": "regression",
+                    "n_jobs": -1
+                }
+            }
+        },
+        {
+            "golden_features": {
+                "new_features": [
+                    {
+                        "feature1": "engineSize",
+                        "feature2": "year",
+                        "operation": "ratio",
+                        "score": 0.4107815158
+                    },
+                    {
+                        "feature1": "engineSize",
+                        "feature2": "year",
+                        "operation": "multiply",
+                        "score": 0.4391056118
+                    },
+                    {
+                        "feature1": "engineSize",
+                        "feature2": "year",
+                        "operation": "sum",
+                        "score": 0.4604293071
+                    },
+                    {
+                        "feature1": "engineSize",
+                        "feature2": "tax",
+                        "operation": "multiply",
+                        "score": 0.4894111985
+                    },
+                    {
+                        "feature1": "year",
+                        "feature2": "engineSize",
+                        "operation": "ratio",
+                        "score": 0.5249638546
+                    },
+                    {
+                        "feature1": "mpg",
+                        "feature2": "engineSize",
+                        "operation": "diff",
+                        "score": 0.5463350623
+                    },
+                    {
+                        "feature1": "engineSize",
+                        "feature2": "tax",
+                        "operation": "ratio",
+                        "score": 0.5471543598
+                    },
+                    {
+                        "feature1": "tax",
+                        "feature2": "engineSize",
+                        "operation": "ratio",
+                        "score": 0.5485017906
+                    },
+                    {
+                        "feature1": "engineSize",
+                        "feature2": "mpg",
+                        "operation": "sum",
+                        "score": 0.5570557972
+                    },
+                    {
+                        "feature1": "engineSize",
+                        "feature2": "mpg",
+                        "operation": "multiply",
+                        "score": 0.564374741
+                    }
+                ],
+                "new_columns": [
+                    "engineSize_ratio_year",
+                    "engineSize_multiply_year",
+                    "engineSize_sum_year",
+                    "engineSize_multiply_tax",
+                    "year_ratio_engineSize",
+                    "mpg_diff_engineSize",
+                    "engineSize_ratio_tax",
+                    "tax_ratio_engineSize",
+                    "engineSize_sum_mpg",
+                    "engineSize_multiply_mpg"
+                ],
+                "ml_task": "regression"
+            },
+            "scale_y": {
+                "scale": [
+                    5917.374218085854
+                ],
+                "mean": [
+                    12732.961105753777
+                ],
+                "var": [
+                    35015317.63686718
+                ],
+                "n_samples_seen": 3111,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_normal"
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_normal"
+                ],
+                "ml_task": "regression",
+                "golden_features": {
+                    "results_path": "AutoML_CAR_PRICE",
+                    "ml_task": "regression",
+                    "n_jobs": -1
+                }
+            }
+        },
+        {
+            "golden_features": {
+                "new_features": [
+                    {
+                        "feature1": "engineSize",
+                        "feature2": "year",
+                        "operation": "ratio",
+                        "score": 0.4107815158
+                    },
+                    {
+                        "feature1": "engineSize",
+                        "feature2": "year",
+                        "operation": "multiply",
+                        "score": 0.4391056118
+                    },
+                    {
+                        "feature1": "engineSize",
+                        "feature2": "year",
+                        "operation": "sum",
+                        "score": 0.4604293071
+                    },
+                    {
+                        "feature1": "engineSize",
+                        "feature2": "tax",
+                        "operation": "multiply",
+                        "score": 0.4894111985
+                    },
+                    {
+                        "feature1": "year",
+                        "feature2": "engineSize",
+                        "operation": "ratio",
+                        "score": 0.5249638546
+                    },
+                    {
+                        "feature1": "mpg",
+                        "feature2": "engineSize",
+                        "operation": "diff",
+                        "score": 0.5463350623
+                    },
+                    {
+                        "feature1": "engineSize",
+                        "feature2": "tax",
+                        "operation": "ratio",
+                        "score": 0.5471543598
+                    },
+                    {
+                        "feature1": "tax",
+                        "feature2": "engineSize",
+                        "operation": "ratio",
+                        "score": 0.5485017906
+                    },
+                    {
+                        "feature1": "engineSize",
+                        "feature2": "mpg",
+                        "operation": "sum",
+                        "score": 0.5570557972
+                    },
+                    {
+                        "feature1": "engineSize",
+                        "feature2": "mpg",
+                        "operation": "multiply",
+                        "score": 0.564374741
+                    }
+                ],
+                "new_columns": [
+                    "engineSize_ratio_year",
+                    "engineSize_multiply_year",
+                    "engineSize_sum_year",
+                    "engineSize_multiply_tax",
+                    "year_ratio_engineSize",
+                    "mpg_diff_engineSize",
+                    "engineSize_ratio_tax",
+                    "tax_ratio_engineSize",
+                    "engineSize_sum_mpg",
+                    "engineSize_multiply_mpg"
+                ],
+                "ml_task": "regression"
+            },
+            "scale_y": {
+                "scale": [
+                    6064.2975378784495
+                ],
+                "mean": [
+                    12871.472838315654
+                ],
+                "var": [
+                    36775704.62791862
+                ],
+                "n_samples_seen": 3111,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_normal"
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_normal"
+                ],
+                "ml_task": "regression",
+                "golden_features": {
+                    "results_path": "AutoML_CAR_PRICE",
+                    "ml_task": "regression",
+                    "n_jobs": -1
+                }
+            }
+        }
+    ],
+    "learners": [
+        {
+            "library_version": "1.0.3",
+            "algorithm_name": "CatBoost",
+            "algorithm_short_name": "CatBoost",
+            "uid": "b8934094-9168-41c4-8f7b-5dfa8346e01b",
+            "params": {
+                "model_type": "CatBoost",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "seed": 1235,
+                "learning_rate": 0.05,
+                "depth": 8,
+                "rsm": 0.8,
+                "loss_function": "RMSE",
+                "eval_metric": "RMSE",
+                "explain_level": 1
+            },
+            "name": "learner_fold_0",
+            "best_ntree_limit": 249
+        },
+        {
+            "library_version": "1.0.3",
+            "algorithm_name": "CatBoost",
+            "algorithm_short_name": "CatBoost",
+            "uid": "84a4dceb-845f-4f6e-9a38-9ac4b731f680",
+            "params": {
+                "model_type": "CatBoost",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "seed": 1235,
+                "learning_rate": 0.05,
+                "depth": 8,
+                "rsm": 0.8,
+                "loss_function": "RMSE",
+                "eval_metric": "RMSE",
+                "explain_level": 1
+            },
+            "name": "learner_fold_1",
+            "best_ntree_limit": 388
+        },
+        {
+            "library_version": "1.0.3",
+            "algorithm_name": "CatBoost",
+            "algorithm_short_name": "CatBoost",
+            "uid": "273b6cc1-274e-4e01-bae4-b3e0bdfd92fe",
+            "params": {
+                "model_type": "CatBoost",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "seed": 1235,
+                "learning_rate": 0.05,
+                "depth": 8,
+                "rsm": 0.8,
+                "loss_function": "RMSE",
+                "eval_metric": "RMSE",
+                "explain_level": 1
+            },
+            "name": "learner_fold_2",
+            "best_ntree_limit": 1015
+        },
+        {
+            "library_version": "1.0.3",
+            "algorithm_name": "CatBoost",
+            "algorithm_short_name": "CatBoost",
+            "uid": "b4ac6f11-e7fc-4ea7-9972-618b58e41389",
+            "params": {
+                "model_type": "CatBoost",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "seed": 1235,
+                "learning_rate": 0.05,
+                "depth": 8,
+                "rsm": 0.8,
+                "loss_function": "RMSE",
+                "eval_metric": "RMSE",
+                "explain_level": 1
+            },
+            "name": "learner_fold_3",
+            "best_ntree_limit": 383
+        },
+        {
+            "library_version": "1.0.3",
+            "algorithm_name": "CatBoost",
+            "algorithm_short_name": "CatBoost",
+            "uid": "b74dd999-7978-4c71-beb2-faf0b796c978",
+            "params": {
+                "model_type": "CatBoost",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "seed": 1235,
+                "learning_rate": 0.05,
+                "depth": 8,
+                "rsm": 0.8,
+                "loss_function": "RMSE",
+                "eval_metric": "RMSE",
+                "explain_level": 1
+            },
+            "name": "learner_fold_4",
+            "best_ntree_limit": 576
+        }
+    ],
+    "params": {
+        "additional": {
+            "max_rounds": 10000,
+            "early_stopping_rounds": 50,
+            "max_rows_limit": null,
+            "max_cols_limit": null
+        },
+        "preprocessing": {
+            "columns_preprocessing": {},
+            "target_preprocessing": [
+                "na_exclude",
+                "scale_normal"
+            ],
+            "ml_task": "regression",
+            "golden_features": {
+                "results_path": "AutoML_CAR_PRICE",
+                "ml_task": "regression",
+                "n_jobs": -1
+            }
+        },
+        "validation_strategy": {
+            "validation_type": "kfold",
+            "k_folds": 5,
+            "shuffle": true,
+            "X_path": "AutoML_CAR_PRICE\\X.data",
+            "y_path": "AutoML_CAR_PRICE\\y.data",
+            "results_path": "AutoML_CAR_PRICE"
+        },
+        "learner": {
+            "model_type": "CatBoost",
+            "ml_task": "regression",
+            "n_jobs": -1,
+            "seed": 1235,
+            "learning_rate": 0.05,
+            "depth": 8,
+            "rsm": 0.8,
+            "loss_function": "RMSE",
+            "eval_metric": "RMSE",
+            "explain_level": 1
+        },
+        "automl_random_state": 1234,
+        "ml_task": "regression",
+        "explain_level": 1,
+        "name": "15_CatBoost_GoldenFeatures",
+        "status": "initialized",
+        "final_loss": null,
+        "train_time": null,
+        "data_type": "original_golden_features",
+        "max_time_for_learner": 12000.0
+    },
+    "saved": [
+        "15_CatBoost_GoldenFeatures\\learner_fold_0.catboost",
+        "15_CatBoost_GoldenFeatures\\learner_fold_1.catboost",
+        "15_CatBoost_GoldenFeatures\\learner_fold_2.catboost",
+        "15_CatBoost_GoldenFeatures\\learner_fold_3.catboost",
+        "15_CatBoost_GoldenFeatures\\learner_fold_4.catboost"
+    ],
+    "predictions_fname": "15_CatBoost_GoldenFeatures\\predictions_out_of_folds.csv",
+    "metric_name": "rmse",
+    "final_loss": 1785.5701131358692,
+    "train_time": 108.43571305274963,
+    "is_stacked": false,
+    "single_prediction_time": 0.10560321807861328
+}

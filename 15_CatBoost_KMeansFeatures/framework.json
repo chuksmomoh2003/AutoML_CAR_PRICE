@@ -1,0 +1,414 @@
+{
+    "uid": "05c9d7ab-df3e-412a-b4ce-0a2af970e175",
+    "name": "15_CatBoost_KMeansFeatures",
+    "preprocessing": [
+        {
+            "kmeans": {
+                "new_features": [
+                    "Dist_Cluster_0",
+                    "Dist_Cluster_1",
+                    "Dist_Cluster_2",
+                    "Dist_Cluster_3",
+                    "Dist_Cluster_4",
+                    "Cluster"
+                ],
+                "result_file": "15_CatBoost_KMeansFeatures\\kmeans_fold_0.joblib",
+                "input_columns": [
+                    "year",
+                    "mileage",
+                    "tax",
+                    "mpg",
+                    "engineSize"
+                ]
+            },
+            "scale_y": {
+                "scale": [
+                    6058.686352824689
+                ],
+                "mean": [
+                    12791.472347266881
+                ],
+                "var": [
+                    36707680.32190413
+                ],
+                "n_samples_seen": 3110,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_normal"
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_normal"
+                ],
+                "ml_task": "regression",
+                "kmeans_features": {
+                    "results_path": "AutoML_CAR_PRICE"
+                }
+            }
+        },
+        {
+            "kmeans": {
+                "new_features": [
+                    "Dist_Cluster_0",
+                    "Dist_Cluster_1",
+                    "Dist_Cluster_2",
+                    "Dist_Cluster_3",
+                    "Dist_Cluster_4",
+                    "Cluster"
+                ],
+                "result_file": "15_CatBoost_KMeansFeatures\\kmeans_fold_1.joblib",
+                "input_columns": [
+                    "year",
+                    "mileage",
+                    "tax",
+                    "mpg",
+                    "engineSize"
+                ]
+            },
+            "scale_y": {
+                "scale": [
+                    6115.006953469324
+                ],
+                "mean": [
+                    12850.525723472669
+                ],
+                "var": [
+                    37393310.04097818
+                ],
+                "n_samples_seen": 3110,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_normal"
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_normal"
+                ],
+                "ml_task": "regression",
+                "kmeans_features": {
+                    "results_path": "AutoML_CAR_PRICE"
+                }
+            }
+        },
+        {
+            "kmeans": {
+                "new_features": [
+                    "Dist_Cluster_0",
+                    "Dist_Cluster_1",
+                    "Dist_Cluster_2",
+                    "Dist_Cluster_3",
+                    "Dist_Cluster_4",
+                    "Cluster"
+                ],
+                "result_file": "15_CatBoost_KMeansFeatures\\kmeans_fold_2.joblib",
+                "input_columns": [
+                    "year",
+                    "mileage",
+                    "tax",
+                    "mpg",
+                    "engineSize"
+                ]
+            },
+            "scale_y": {
+                "scale": [
+                    6075.690708478124
+                ],
+                "mean": [
+                    12812.972347266881
+                ],
+                "var": [
+                    36914017.58508741
+                ],
+                "n_samples_seen": 3110,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_normal"
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_normal"
+                ],
+                "ml_task": "regression",
+                "kmeans_features": {
+                    "results_path": "AutoML_CAR_PRICE"
+                }
+            }
+        },
+        {
+            "kmeans": {
+                "new_features": [
+                    "Dist_Cluster_0",
+                    "Dist_Cluster_1",
+                    "Dist_Cluster_2",
+                    "Dist_Cluster_3",
+                    "Dist_Cluster_4",
+                    "Cluster"
+                ],
+                "result_file": "15_CatBoost_KMeansFeatures\\kmeans_fold_3.joblib",
+                "input_columns": [
+                    "year",
+                    "mileage",
+                    "tax",
+                    "mpg",
+                    "engineSize"
+                ]
+            },
+            "scale_y": {
+                "scale": [
+                    5917.374218085854
+                ],
+                "mean": [
+                    12732.961105753777
+                ],
+                "var": [
+                    35015317.63686718
+                ],
+                "n_samples_seen": 3111,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_normal"
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_normal"
+                ],
+                "ml_task": "regression",
+                "kmeans_features": {
+                    "results_path": "AutoML_CAR_PRICE"
+                }
+            }
+        },
+        {
+            "kmeans": {
+                "new_features": [
+                    "Dist_Cluster_0",
+                    "Dist_Cluster_1",
+                    "Dist_Cluster_2",
+                    "Dist_Cluster_3",
+                    "Dist_Cluster_4",
+                    "Cluster"
+                ],
+                "result_file": "15_CatBoost_KMeansFeatures\\kmeans_fold_4.joblib",
+                "input_columns": [
+                    "year",
+                    "mileage",
+                    "tax",
+                    "mpg",
+                    "engineSize"
+                ]
+            },
+            "scale_y": {
+                "scale": [
+                    6064.2975378784495
+                ],
+                "mean": [
+                    12871.472838315654
+                ],
+                "var": [
+                    36775704.62791862
+                ],
+                "n_samples_seen": 3111,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_normal"
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_normal"
+                ],
+                "ml_task": "regression",
+                "kmeans_features": {
+                    "results_path": "AutoML_CAR_PRICE"
+                }
+            }
+        }
+    ],
+    "learners": [
+        {
+            "library_version": "1.0.3",
+            "algorithm_name": "CatBoost",
+            "algorithm_short_name": "CatBoost",
+            "uid": "6666cf62-0660-465d-8451-c0ab7855176f",
+            "params": {
+                "model_type": "CatBoost",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "seed": 1235,
+                "learning_rate": 0.05,
+                "depth": 8,
+                "rsm": 0.8,
+                "loss_function": "RMSE",
+                "eval_metric": "RMSE",
+                "explain_level": 1
+            },
+            "name": "learner_fold_0",
+            "best_ntree_limit": 668
+        },
+        {
+            "library_version": "1.0.3",
+            "algorithm_name": "CatBoost",
+            "algorithm_short_name": "CatBoost",
+            "uid": "4a2a1fe5-4a14-417a-8037-b5125da62ca0",
+            "params": {
+                "model_type": "CatBoost",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "seed": 1235,
+                "learning_rate": 0.05,
+                "depth": 8,
+                "rsm": 0.8,
+                "loss_function": "RMSE",
+                "eval_metric": "RMSE",
+                "explain_level": 1
+            },
+            "name": "learner_fold_1",
+            "best_ntree_limit": 471
+        },
+        {
+            "library_version": "1.0.3",
+            "algorithm_name": "CatBoost",
+            "algorithm_short_name": "CatBoost",
+            "uid": "eae0b514-0cf6-42de-bdc5-9a357c69730d",
+            "params": {
+                "model_type": "CatBoost",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "seed": 1235,
+                "learning_rate": 0.05,
+                "depth": 8,
+                "rsm": 0.8,
+                "loss_function": "RMSE",
+                "eval_metric": "RMSE",
+                "explain_level": 1
+            },
+            "name": "learner_fold_2",
+            "best_ntree_limit": 765
+        },
+        {
+            "library_version": "1.0.3",
+            "algorithm_name": "CatBoost",
+            "algorithm_short_name": "CatBoost",
+            "uid": "cd5cdee1-a012-457d-a516-737818b9753d",
+            "params": {
+                "model_type": "CatBoost",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "seed": 1235,
+                "learning_rate": 0.05,
+                "depth": 8,
+                "rsm": 0.8,
+                "loss_function": "RMSE",
+                "eval_metric": "RMSE",
+                "explain_level": 1
+            },
+            "name": "learner_fold_3",
+            "best_ntree_limit": 386
+        },
+        {
+            "library_version": "1.0.3",
+            "algorithm_name": "CatBoost",
+            "algorithm_short_name": "CatBoost",
+            "uid": "e07b96a2-76e1-423d-a532-92b608471bdd",
+            "params": {
+                "model_type": "CatBoost",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "seed": 1235,
+                "learning_rate": 0.05,
+                "depth": 8,
+                "rsm": 0.8,
+                "loss_function": "RMSE",
+                "eval_metric": "RMSE",
+                "explain_level": 1
+            },
+            "name": "learner_fold_4",
+            "best_ntree_limit": 364
+        }
+    ],
+    "params": {
+        "additional": {
+            "max_rounds": 10000,
+            "early_stopping_rounds": 50,
+            "max_rows_limit": null,
+            "max_cols_limit": null
+        },
+        "preprocessing": {
+            "columns_preprocessing": {},
+            "target_preprocessing": [
+                "na_exclude",
+                "scale_normal"
+            ],
+            "ml_task": "regression",
+            "kmeans_features": {
+                "results_path": "AutoML_CAR_PRICE"
+            }
+        },
+        "validation_strategy": {
+            "validation_type": "kfold",
+            "k_folds": 5,
+            "shuffle": true,
+            "X_path": "AutoML_CAR_PRICE\\X.data",
+            "y_path": "AutoML_CAR_PRICE\\y.data",
+            "results_path": "AutoML_CAR_PRICE"
+        },
+        "learner": {
+            "model_type": "CatBoost",
+            "ml_task": "regression",
+            "n_jobs": -1,
+            "seed": 1235,
+            "learning_rate": 0.05,
+            "depth": 8,
+            "rsm": 0.8,
+            "loss_function": "RMSE",
+            "eval_metric": "RMSE",
+            "explain_level": 1
+        },
+        "automl_random_state": 1234,
+        "ml_task": "regression",
+        "explain_level": 1,
+        "name": "15_CatBoost_KMeansFeatures",
+        "status": "initialized",
+        "final_loss": null,
+        "train_time": null,
+        "data_type": "original_kmeans_features",
+        "max_time_for_learner": 12000.0
+    },
+    "saved": [
+        "15_CatBoost_KMeansFeatures\\learner_fold_0.catboost",
+        "15_CatBoost_KMeansFeatures\\learner_fold_1.catboost",
+        "15_CatBoost_KMeansFeatures\\learner_fold_2.catboost",
+        "15_CatBoost_KMeansFeatures\\learner_fold_3.catboost",
+        "15_CatBoost_KMeansFeatures\\learner_fold_4.catboost"
+    ],
+    "predictions_fname": "15_CatBoost_KMeansFeatures\\predictions_out_of_folds.csv",
+    "metric_name": "rmse",
+    "final_loss": 1792.806423586606,
+    "train_time": 110.52526664733887,
+    "is_stacked": false,
+    "single_prediction_time": 0.10531425476074219
+}
