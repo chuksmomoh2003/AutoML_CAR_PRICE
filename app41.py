@@ -13,7 +13,7 @@ from supervised.automl import AutoML
 # In[4]:
 
 
-automl = AutoML('AutoML_CAR_PRICE')
+automl = AutoML('chuksmomoh2003/AutoML_CAR_PRICE')
 
 def predict(input_df):
     predictions_df = automl.predict(input_df)
